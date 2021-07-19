@@ -1,0 +1,44 @@
+header {
+    
+    flex: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;   
+    padding: 10px 0; 
+    
+    margin-left: 10%;
+}
+
+.content {
+
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inner-content {
+    
+    flex: wrap;
+    display: flex;
+       
+    
+    
+}
+
+.main-content {
+    display: flex;
+    flex: wrap;
+    width: 50%;
+    flex-direction: column;
+   
+    justify-content: space-around;
+    border-radius: 12px;
+}
